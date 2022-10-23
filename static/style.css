@@ -220,11 +220,6 @@ input:checked + .slider:before {
   width: 75px;
 }
 
-.box {
-  display: flex;
-}
-
-
 #switchwrap {
   width: 75px;
   height: 30px;
