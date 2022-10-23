@@ -62,20 +62,54 @@
       <div class="hscrollpad" id="hscrollpad">
       </div>
     </main>
-    <div id="keyboard">
-      <button onclick="callEndpoint('/KB.q');">Q</button>
-      <button onclick="callEndpoint('/KB.w');">W</button>
-      <button onclick="callEndpoint('/KB.e');">E</button>
-      <button onclick="callEndpoint('/KB.r');">R</button>
-      <button onclick="callEndpoint('/KB.t');">T</button>
-      <button onclick="callEndpoint('/KB.y');">Y</button>
-      <button onclick="callEndpoint('/KB.u');">U</button>
-      <button onclick="callEndpoint('/KB.i');">I</button>
-      <button onclick="callEndpoint('/KB.o');">O</button>
-      <button onclick="callEndpoint('/KB.p');">P</button>
-      <br />
-      <button onclick="callEndpoint('/KB.a');">A</button>
-  </div>
+    <div class="box">
+      <div>One</div>
+      <div>Two</div>
+      <div>Three
+          <br>has
+          <br>extra
+          <br>text
+      </div>
+    </div>
+      <div id="keyboard">
+        <div id="first-line" class="keyrow">
+          <button onclick="callEndpoint('/KB.q');">Q</button>
+          <button onclick="callEndpoint('/KB.w');">W</button>
+          <button onclick="callEndpoint('/KB.e');">E</button>
+          <button onclick="callEndpoint('/KB.r');">R</button>
+          <button onclick="callEndpoint('/KB.t');">T</button>
+          <button onclick="callEndpoint('/KB.y');">Y</button>
+          <button onclick="callEndpoint('/KB.u');">U</button>
+          <button onclick="callEndpoint('/KB.i');">I</button>
+          <button onclick="callEndpoint('/KB.o');">O</button>
+          <button onclick="callEndpoint('/KB.p');">P</button>
+        </div>
+        <div id="second-line" class="keyrow">
+          <button onclick="callEndpoint('/KB.a');">A</button>
+          <button onclick="callEndpoint('/KB.s');">S</button>
+          <button onclick="callEndpoint('/KB.d');">D</button>
+          <button onclick="callEndpoint('/KB.f');">F</button>
+          <button onclick="callEndpoint('/KB.g');">G</button>
+          <button onclick="callEndpoint('/KB.h');">H</button>
+          <button onclick="callEndpoint('/KB.j');">J</button>
+          <button onclick="callEndpoint('/KB.k');">K</button>
+          <button onclick="callEndpoint('/KB.l');">L</button>
+        </div>
+        <div id="third-line" class="keyrow">
+          <button onclick="callEndpoint('/KB.capslock');">CapsLock</button>
+          <button onclick="callEndpoint('/KB.z');">Z</button>
+          <button onclick="callEndpoint('/KB.x');">X</button>
+          <button onclick="callEndpoint('/KB.c');">C</button>
+          <button onclick="callEndpoint('/KB.v');">V</button>
+          <button onclick="callEndpoint('/KB.b');">B</button>
+          <button onclick="callEndpoint('/KB.n');">N</button>
+          <button onclick="callEndpoint('/KB.m');">M</button>
+          <button onclick="callEndpoint('/KB.backspace');">Delete</button>
+        </div>
+        <div id="fourth-line" class="keyrow">
+          <button id="spacebar" class="keyrow" onclick="callEndpoint('/KB.space');">Space</button>
+        </div>
+      </div> 
     <footer class="footer">
       <p>
         Have issues/suggestions or want to contribute?<br />Head to
