@@ -216,6 +216,15 @@ input:checked + .slider:before {
   visibility: hidden;
 }
 
+.keyrow {
+  width: 75px;
+}
+
+.box {
+  display: flex;
+}
+
+
 #switchwrap {
   width: 75px;
   height: 30px;
